@@ -1,116 +1,261 @@
-# 📦 Warehouse Operations Analytics
+# 📦 Warehouse Operations Analytics Dashboard
 
-## Overview
+<p align="center">
 
-Warehouse performance is driven by accurate inventory, efficient order fulfillment, and data-driven decision making. This project demonstrates how warehouse operational data can be analyzed using industry-standard KPIs to monitor performance, identify operational trends, and support continuous improvement initiatives.
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-Dashboard-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-Data%20Analysis-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Supply Chain](https://img.shields.io/badge/Supply%20Chain-Analytics-0052CC?style=for-the-badge)
+![Warehouse](https://img.shields.io/badge/Warehouse-Operations-success?style=for-the-badge)
+![Portfolio](https://img.shields.io/badge/Portfolio-Project-orange?style=for-the-badge)
 
-The project simulates a warehouse environment using fictional operational data and showcases practical analysis through Excel, SQL, Python, and Power BI. While the datasets are created for demonstration purposes, the KPIs, workflows, and analytical approach are based on common warehouse management practices.
+</p>
 
----
-
-## Business Scenario
-
-A regional distribution center is experiencing operational challenges including inventory discrepancies, delayed putaway activities, and inconsistent order fulfillment performance. Warehouse leadership requires greater visibility into operational metrics to identify improvement opportunities and support better decision-making.
-
-This project analyzes warehouse operational data to measure performance, identify trends, and recommend actions using commonly tracked warehouse KPIs.
+> **A portfolio project demonstrating warehouse operations analytics using Microsoft Excel and SQL to transform operational data into actionable business insights for inventory management, warehouse performance monitoring, supplier analysis, and order fulfillment.**
 
 ---
 
-## Project Objectives
+# 📖 Project Overview
 
-- Monitor warehouse operational performance
-- Analyze inventory accuracy and inventory movement
-- Measure warehouse productivity through operational KPIs
-- Demonstrate data analysis using Excel, SQL, Python, and Power BI
-- Present findings through clear dashboards and visualizations
+Warehouse operations generate thousands of inventory movements, supplier receipts, customer orders, and stock adjustments every day. Converting operational data into meaningful business insights is essential for maintaining inventory accuracy, improving warehouse productivity, and enabling informed operational decision-making.
+
+This project simulates a **Warehouse Management System (WMS) reporting solution** for a fictional distribution center. Using Microsoft Excel and SQL, operational warehouse data is transformed into interactive dashboards that provide visibility into inventory performance, warehouse utilization, supplier activity, customer order trends, and key operational metrics.
+
+The project reflects analytical workflows commonly performed by **Supply Chain Analysts, Warehouse Analysts, WMS Analysts, and Continuous Improvement professionals**.
 
 ---
 
-## Key Performance Indicators
+# 🏢 Business Scenario
 
-This project focuses on several commonly used warehouse metrics, including:
+**Company:** FreshBox Foods
 
+FreshBox Foods operates a regional distribution center responsible for receiving, storing, and shipping meal-kit ingredients across Western Canada.
+
+The warehouse receives inventory from multiple suppliers, stores products across dedicated warehouse zones, fulfills customer orders daily, and performs routine cycle counts to maintain inventory accuracy.
+
+Warehouse leadership requires an operational dashboard capable of monitoring warehouse performance, identifying inventory trends, and supporting data-driven operational decisions.
+
+---
+
+# 🎯 Project Objectives
+
+This project was designed to:
+
+- Monitor inventory availability across multiple product categories
+- Analyze warehouse inventory distribution by storage zone
+- Track supplier receipt activity
+- Monitor customer order fulfillment trends
+- Identify high-volume inventory items
+- Demonstrate warehouse KPI reporting using Microsoft Excel
+- Perform warehouse operational analysis using SQL
+- Present operational insights through executive dashboards
+
+---
+
+# 📊 Dashboard Preview
+
+## Executive Dashboard
+
+![Dashboard Overview](images/dashboard-overview.png)
+
+---
+
+## Warehouse Operations Analytics
+
+![Dashboard Analysis](images/dashboard-analysis.png)
+
+---
+
+## Inventory Performance Summary
+
+![Dashboard Summary](images/dashboard-summary.png)
+
+---
+
+# 🛠️ Tools & Technologies
+
+| Technology | Purpose |
+|------------|----------|
+| Microsoft Excel | Interactive Dashboard Development |
+| SQL | Warehouse Data Analysis |
+| Pivot Tables | Data Aggregation |
+| Pivot Charts | KPI Visualization |
+| Conditional Formatting | Inventory Monitoring |
+| CSV | Warehouse Operational Dataset |
+
+---
+
+# 📁 Repository Structure
+
+```text
+warehouse-operations-analytics/
+
+│── README.md
+
+│── data/
+│     inventory.csv
+│     orders.csv
+│     receipts.csv
+│     cycle_counts.csv
+
+│── excel/
+│     Warehouse_Operations_Analytics_Dashboard.xlsx
+
+│── sql/
+│     warehouse_queries.sql
+
+│── images/
+│     dashboard-overview.png
+│     dashboard-analysis.png
+│     dashboard-summary.png
+```
+
+---
+
+# 🗂️ Dataset Overview
+
+This project uses fictional warehouse operational datasets representing typical warehouse management activities.
+
+The repository includes:
+
+- Inventory Master Data
+- Customer Orders
+- Supplier Receipts
+- Inventory Cycle Counts
+
+These datasets simulate realistic warehouse operations while maintaining fictional business information suitable for portfolio use.
+
+---
+
+# 📈 Dashboard Features
+
+The dashboard provides visibility into several operational performance areas.
+
+### Inventory Analytics
+
+- Inventory by Product Category
+- Top 10 Inventory Items
+- Inventory Distribution by Warehouse Zone
+
+### Warehouse Operations
+
+- Customer Order Trends
+- Supplier Receipt Analysis
+- Inventory Monitoring
+
+### Executive Reporting
+
+- Operational KPIs
+- Inventory Performance
+- Warehouse Utilization
+
+---
+
+# 🗄️ SQL Analysis
+
+SQL queries were developed to support operational warehouse reporting.
+
+Analysis includes:
+
+- Current Inventory Levels
+- Inventory by Category
+- Inventory by Warehouse Zone
+- Low Stock Identification
+- Supplier Receipt Analysis
+- Customer Order Reporting
+- Inventory Accuracy Analysis
+
+---
+
+# 💡 Key Business Insights
+
+### 📦 Inventory Performance
+
+Packaging materials represent the largest inventory category, emphasizing their importance in supporting daily warehouse fulfillment operations.
+
+### 🏭 Warehouse Utilization
+
+Inventory is primarily concentrated within **Zone D**, providing operational visibility into warehouse storage utilization and capacity distribution.
+
+### 🚚 Supplier Activity
+
+Supplier receipt analysis highlights inbound inventory volumes and supports supplier performance monitoring for warehouse replenishment planning.
+
+### 📈 Order Fulfillment
+
+Customer order activity fluctuates throughout the operational week, demonstrating demand variability that warehouse teams must accommodate.
+
+### 📊 Inventory Prioritization
+
+High-volume inventory items such as recipe cards, packaging materials, and meal-kit components require continuous monitoring to maintain inventory availability and operational efficiency.
+
+---
+
+# 🚀 Skills Demonstrated
+
+### Warehouse Operations
+
+- Inventory Management
+- Warehouse KPI Reporting
+- Order Fulfillment Analysis
+- Supplier Performance Monitoring
+- Warehouse Utilization
 - Inventory Accuracy
-- Order Fill Rate
-- Pick Accuracy
-- Order Cycle Time
-- Dock-to-Stock Time
-- Daily Throughput
-- Inventory Turnover
-- Cycle Count Accuracy
+
+### Data Analytics
+
+- Microsoft Excel
+- Dashboard Development
+- Pivot Tables
+- Business Reporting
+- Data Visualization
+
+### SQL
+
+- SELECT Statements
+- GROUP BY
+- Aggregate Functions
+- Warehouse Reporting
+- Inventory Analysis
+
+### Business & Operations
+
+- Supply Chain Analytics
+- Warehouse Operations
+- Operational Performance Monitoring
+- Data-Driven Decision Making
+- Continuous Improvement
 
 ---
 
-## Technologies Used
+# 🔮 Future Enhancements
 
-| Tool | Purpose |
-|------|---------|
-| Microsoft Excel | KPI Dashboard & Data Analysis |
-| SQL | Operational Data Analysis |
-| Python (Pandas) | Data Cleaning & KPI Calculations |
-| Power BI | Interactive Dashboard & Visualization |
-| Git & GitHub | Version Control & Documentation |
+Future versions of this project may include:
 
----
-
-## Repository Structure
-
-```
-warehouse-kpi-dashboard/
-│
-├── data/
-│   ├── inventory.csv
-│   ├── orders.csv
-│   ├── receipts.csv
-│   └── cycle_counts.csv
-│
-├── excel/
-│   └── Warehouse KPI Dashboard.xlsx
-│
-├── sql/
-│   └── warehouse_queries.sql
-│
-├── python/
-│   └── inventory_analysis.ipynb
-│
-├── powerbi/
-│   └── Warehouse Dashboard.pbix
-│
-├── docs/
-│   ├── KPI_Definitions.md
-│   └── Business_Case.md
-│
-├── images/
-│   └── dashboard_preview.png
-│
-└── README.md
-```
-
----
-
-## Project Workflow
-
-1. Collect warehouse operational data
-2. Clean and validate datasets
-3. Analyze warehouse performance using SQL and Python
-4. Calculate warehouse KPIs
-5. Visualize results using Excel and Power BI
-6. Present insights and operational recommendations
-
----
-
-## Future Enhancements
-
+- Power BI Dashboard
+- Interactive Dashboard Filters
+- Automated Data Refresh
+- Inventory Forecasting
 - ABC Inventory Classification
-- Safety Stock Analysis
-- Reorder Point Calculations
-- Inventory Aging Analysis
-- Demand Forecasting
-- Interactive Power BI Dashboard
-- Automated KPI Reporting
+- Inventory Turnover Analysis
+- Safety Stock Monitoring
+- Warehouse Capacity Planning
 
 ---
 
-## Disclaimer
+# 📄 Disclaimer
 
-This project uses fictional data created solely for educational and portfolio purposes. It does not contain confidential information, proprietary processes, or operational data from any current or former employer.
+This project uses **fictional warehouse data** created exclusively for portfolio and educational purposes. It does **not** contain proprietary, confidential, or employer-owned information.
+
+---
+
+# 👤 Author
+
+**Navdip Savaliya**
+
+Mechanical Engineering Professional | Supply Chain | Warehouse Operations | Continuous Improvement | Data Analytics
+
+📍 Calgary, Alberta, Canada
+
+---
+
+⭐ **If you found this project interesting, feel free to explore the repository and provide feedback.**
