@@ -1,0 +1,25 @@
+SKU,Product,Category,Zone,Location,On_Hand,Reserved,Available,Damaged,Unit
+SKU001,Chicken Breast,Protein,A,A01-01,250,35,215,2,KG
+SKU002,Ground Beef,Protein,A,A01-02,180,22,158,1,KG
+SKU003,Salmon Fillet,Protein,C,C01-01,120,18,102,0,KG
+SKU004,Tofu,Protein,A,A02-01,90,12,78,0,EA
+SKU005,Turkey Breast,Protein,A,A02-02,160,20,140,1,KG
+SKU006,Bell Peppers,Vegetables,A,A03-01,300,45,255,3,KG
+SKU007,Tomatoes,Vegetables,A,A03-02,280,40,240,5,KG
+SKU008,Broccoli,Vegetables,A,A04-01,150,20,130,2,KG
+SKU009,Spinach,Vegetables,A,A04-02,100,15,85,1,KG
+SKU010,Onions,Vegetables,B,B01-01,400,60,340,4,KG
+SKU011,Potatoes,Vegetables,B,B01-02,500,70,430,6,KG
+SKU012,Rice,Pantry,B,B02-01,350,50,300,0,KG
+SKU013,Pasta,Pantry,B,B02-02,320,45,275,0,EA
+SKU014,Olive Oil,Pantry,B,B03-01,180,20,160,0,L
+SKU015,Black Beans,Pantry,B,B03-02,220,30,190,0,EA
+SKU016,Chickpeas,Pantry,B,B04-01,210,25,185,0,EA
+SKU017,Milk,Dairy,A,A05-01,200,28,172,2,L
+SKU018,Butter,Dairy,A,A05-02,140,18,122,1,EA
+SKU019,Mozzarella,Dairy,A,A06-01,170,22,148,1,KG
+SKU020,Yogurt,Dairy,A,A06-02,190,30,160,2,EA
+SKU021,Meal Kit Box,Packaging,D,D01-01,1200,200,1000,0,EA
+SKU022,Ice Pack,Packaging,D,D01-02,1500,300,1200,5,EA
+SKU023,Insulated Liner,Packaging,D,D02-01,800,120,680,2,EA
+SKU024,Recipe Card,Packaging,D,D02-02,2500,450,2050,0,EA
