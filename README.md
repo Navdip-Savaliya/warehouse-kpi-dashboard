@@ -101,25 +101,38 @@ warehouse-operations-analytics/
 
 │── README.md
 
-│── data/
-│     inventory.csv
-│     orders.csv
-│     receipts.csv
-│     cycle_counts.csv
+├── data/
+│   ├── README.md
+│   ├── inventory.csv
+│   ├── orders.csv
+│   ├── receipts.csv
+│   └── cycle_counts.csv
 
-│── excel/
-│     Warehouse_Operations_Analytics_Dashboard.xlsx
+├── docs/
+│   └── README.md
 
-│── sql/
-│     warehouse_queries.sql
+├── excel/
+│   ├── README.md
+│   └── Warehouse_WMS Project_Portfolio_Dashboard.xlsx
 
-│── images/
-│     dashboard-overview.png
-│     dashboard-analysis.png
-│     dashboard-summary.png
+├── images/
+│   ├── README.md
+│   ├── Inventory by category.PNG
+│   ├── Inventory by Zone.PNG
+│   ├── Order Trends.PNG
+│   ├── Supplier Reciepts.PNG
+│   └── Top 10 Inventory.PNG
+
+├── powerbi/
+│   └── README.md
+
+├── python/
+│   └── README.md
+
+└── sql/
+    ├── README.md
+    └── warehouse_queries.sql
 ```
-
----
 
 # 🗂️ Dataset Overview
 
