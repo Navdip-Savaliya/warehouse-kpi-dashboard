@@ -1,0 +1,9 @@
+Receipt_ID,Receipt_Date,Supplier,SKU,Product,Quantity,Arrival_Time,Putaway_Time
+REC001,2026-07-01,Prairie Meats,SKU001,Chicken Breast,100,08:00,09:10
+REC002,2026-07-01,Fresh Farms,SKU006,Bell Peppers,120,08:30,09:35
+REC003,2026-07-02,Grain Co.,SKU012,Rice,200,09:00,10:15
+REC004,2026-07-02,Dairy Best,SKU017,Milk,150,07:45,08:40
+REC005,2026-07-03,Fresh Farms,SKU007,Tomatoes,180,08:15,09:25
+REC006,2026-07-04,PackRight,SKU021,Meal Kit Box,500,09:20,10:30
+REC007,2026-07-05,Ocean Foods,SKU003,Salmon Fillet,80,08:10,09:05
+REC008,2026-07-06,Green Valley,SKU011,Potatoes,250,07:50,09:00
