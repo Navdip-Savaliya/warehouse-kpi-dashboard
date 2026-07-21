@@ -53,23 +53,33 @@ This project was designed to:
 
 # 📊 Dashboard Preview
 
-## Executive Dashboard
+## Inventory by Category
 
-![Dashboard Overview](images/dashboard-overview.png)
-
----
-
-## Warehouse Operations Analytics
-
-![Dashboard Analysis](images/dashboard-analysis.png)
+![Inventory by Category](images/Inventory%20by%20category.PNG)
 
 ---
 
-## Inventory Performance Summary
+## Inventory by Warehouse Zone
 
-![Dashboard Summary](images/dashboard-summary.png)
+![Inventory by Zone](images/Inventory%20by%20Zone.PNG)
 
 ---
+
+## Customer Order Trends
+
+![Order Trends](images/Order%20Trends.PNG)
+
+---
+
+## Supplier Receipt Analysis
+
+![Supplier Receipts](images/Supplier%20Reciepts.PNG)
+
+---
+
+## Top 10 Inventory Items
+
+![Top 10 Inventory](images/Top%2010%20Inventory.PNG)
 
 # 🛠️ Tools & Technologies
 
